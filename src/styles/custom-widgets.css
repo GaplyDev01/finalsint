@@ -1,0 +1,27 @@
+/* Custom styling for RSS app widgets */
+.rss-wall-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.rss-imageboard-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Make CoinGecko widget compatible with dark theme */
+.coingecko-widget-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: transparent !important;
+}
+
+/* Override any light theme elements inside the widgets */
+[data-theme="light"] {
+  background-color: rgba(26, 32, 44, 0.8) !important;
+  color: #f7fafc !important;
+}
